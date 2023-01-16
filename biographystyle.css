@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+#Navigator {
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#Navigator > a {
+	margin: 0;
+	align-items: center;
+	padding: 30px 25px;
+	height: 100%;
+	text-decoration: none;
+	color: white;
+}
+#Navigator > a:hover {
+	background-color: #356b1a;
+}
+#introductions {
+	font-family: 'Inconsolata', monospace;
+}
+.centertext {
+	text-align: center;
+}
+.divfullscreen {
+	padding: 15vh 0 0 0;
+	height: 100vh;
+	width: 100%;
+	background: black;
+	color: #356b1a;
+}
+#copyrighted {
+	
+}
